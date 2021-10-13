@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- GOOGLE FONT FAMILIES -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <title>Turn-based JavaScript Game</title>
+
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <button id="theRules">
+      <h1 id="ruleFont">?</h1>
+    </button>
+    <div id="container">
+      <div id="ruleSheet">
+<div id="ruleClose">x</div>
+
+        <h1 id="ruleTitle">The Rules</h1>
+        <hr>
+
+        <p>
+          &#8226; Each player must take it in turns to move their Knight around the
+          board and collect a weapon to take to the final battle.  When ready a player should initiate combat by attacking the other
+          player.  Whoever strikes first gets the first turn in the final battle</p>
+
+        <p>
+          &#8226; During the fight players can choose to defend (recieve half damage
+          next turn) or attack (damage the enemy and reduce their health)
+        </p>
+
+        <p>
+          &#8226; Attack power is based on the weapon strength, whether or not the
+          opponet is defending and a random chance element.  The first player to vanquish their opponent, by reducing their health
+          to zero is the winner!
+        </p>
+
+        <p>
+          &#8226; The order of weapons from weakest to strongest is as follows: </p> 
+         <p class="centeredText"><span style="font-size: 1.4em;">"unarmed", "dead fish", "axe", "sword" </span></p>
+
+         <p class="centeredText lobster">ENJOY!</p>
+      </div>
+
+      <div id="boardContainer"></div>
+
+      <div id="endGameContainer"></div>
+    </div>
+
+    <!-- JAVASCRIPT FOR GAME LOGIC -->
+
+    <script src="P6_01_gamelogic.js"></script>
+
+    <!-- JAVASCRIPT FOR CLASSES-->
+
+    <script src="P6_01_classes.js"></script>
+
+    <!-- JAVASCRIPT FOR THE BOARD AND SPAWNING-->
+
+    <script src="P6_01_theboard.js"></script>
+
+    <!-- JAVASCRIPT FOR ENDGAME -->
+
+    <script src="P6_01_endgame.js"></script>
+
+    <!-- JAVASCRIPT FOR MOVEMENT -->
+
+    <script src="P6_01_movement.js"></script>
+
+  </body>
+</html>

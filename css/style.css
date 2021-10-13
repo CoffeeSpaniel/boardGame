@@ -1,0 +1,216 @@
+body {
+  background-color: #d5e1df;
+}
+
+div {
+  border-radius: 5%;
+  text-align: center;
+}
+
+img {
+  border-radius: 5%;
+}
+
+p {
+  font-family: 'Amiri', serif;
+  margin:8px;
+  font-size: 1.2em;
+  text-align:justify;
+}
+
+.player1 {
+  background-image: url("player1.png") !important;
+  background-size: cover;
+}
+.player2 {
+  background-image: url("player2.png") !important;
+  background-size: cover;
+}
+
+#container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boardContainer {
+  display: grid;
+  border-style: solid;
+  background-color: #b5e7a0;
+  width: 800px;
+  height: 550px;
+  border-radius: 1%;
+}
+
+.boardTile {
+  background-color: #04c444;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+/* THE RULES */
+
+hr {
+width: 75%;
+border:solid 1px;
+
+}
+
+.centeredText {
+  text-align: center;
+}
+
+#theRules {
+  position: absolute;
+  border-style: double;
+  border-radius: 2px;
+  background-color: lime;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  margin-top: 500px;
+}
+#ruleFont {
+  
+  padding: 0px;
+  margin: 0px;
+}
+#ruleTitle {
+  margin: 0;
+}
+
+#ruleClose {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  float: right;
+  border-radius: 4px;
+  border: navy;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#ruleSheet {
+  width: 720px;
+  height: 495px;
+  background-color: linen;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  z-index: 100000;
+  font-family: 'Amiri', serif;
+  display: none;
+  border: #523375;
+  border-style: solid;
+  
+}
+
+/* END GAME */
+
+.size1,
+.size2 {
+  margin-top: 30px;
+  font-size: 1.4em;
+}
+.player1Window{
+  background-image: url("background1.png");
+   background-size: cover;
+}
+
+.player2Window{
+  background-image: url("background2.png");
+   background-size: cover;
+}
+
+.health1,
+.health2 {
+  justify-content: left;
+}
+
+#endGameContainer {
+  max-width: 780px;
+}
+
+.header1 {
+  background-color: #B5E7A0;
+  text-align: center;
+
+  font-size: 2em;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.header2 {
+  background-color: #9BEDE3;
+  text-align: center;
+
+  font-size: 1.8em;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+.footer1 {
+  background-color: #B5E7A0;
+  text-align: center;
+  padding-top: 13%;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.battle1 {
+  background-color: #6ebbc7;
+  text-align: center;
+  padding-top: 13%;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.footer2 {
+  background-color: #9BEDE3;
+  text-align: center;
+  padding-top: 13%;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+button {
+  background-color: thistle;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 6px;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+#healthText2 {
+  position: absolute;
+  font-family: Verdana, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#healthText1 {
+  position: absolute;
+  font-family: Verdana, Tahoma, sans-serif;
+  text-align: center;
+}
+.alan {
+  z-index: 9999;
+  padding-bottom: 250px;
+}
+
+.startBattleText {
+  z-index: 10000;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #523375;
+  
+  font-size: 4em;
+  display: block;
+  float: left;
+}
+
+#battleText {
+  text-align: center ;
+  font-family: 'Fredoka One', cursive;
+}
+
+.lobster {
+  font-family: 'Lobster', cursive;
+}
